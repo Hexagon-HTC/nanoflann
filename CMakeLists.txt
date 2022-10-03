@@ -129,7 +129,8 @@ configure_package_config_file(
 write_basic_package_version_file(
     "${nanoflann_BINARY_DIR}/nanoflannConfigVersion.cmake"
     VERSION ${nanoflann_VERSION}
-    COMPATIBILITY AnyNewerVersion)
+    COMPATIBILITY AnyNewerVersion
+	ARCH_INDEPENDENT)
 
 
 # Uninstall target, for "make uninstall"
